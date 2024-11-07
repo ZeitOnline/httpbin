@@ -18,7 +18,7 @@ gunicorn==23.0.0          # via httpbin (setup.py)
 itsdangerous==2.2.0       # via flask, httpbin (setup.py)
 jinja2==3.1.4             # via flask
 jsonschema==4.23.0        # via flasgger
-jsonschema-specifications==2023.12.1  # via jsonschema
+jsonschema-specifications==2024.10.1  # via jsonschema
 markupsafe==3.0.2         # via httpbin (setup.py), jinja2, werkzeug
 mistune==3.0.2            # via flasgger
 packaging==24.1           # via flasgger, gunicorn
