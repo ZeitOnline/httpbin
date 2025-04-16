@@ -13,7 +13,7 @@ decorator==5.2.1          # via httpbin (setup.py)
 flasgger==0.9.7.1         # via httpbin (setup.py)
 flask==3.1.0              # via flasgger, httpbin (setup.py), raven
 gevent==24.11.1            # via httpbin (setup.py)
-greenlet==3.1.1           # via gevent
+greenlet==3.2.0           # via gevent
 gunicorn==23.0.0          # via httpbin (setup.py)
 itsdangerous==2.2.0       # via flask, httpbin (setup.py)
 jinja2==3.1.6             # via flask
