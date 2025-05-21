@@ -8,7 +8,7 @@ attrs==25.3.0             # via jsonschema, referencing
 blinker==1.9.0            # via flask, raven
 brotlipy==0.7.0           # via httpbin (setup.py)
 cffi==1.17.1              # via brotlipy
-click==8.2.0              # via flask
+click==8.2.1              # via flask
 decorator==5.2.1          # via httpbin (setup.py)
 flasgger==0.9.7.1         # via httpbin (setup.py)
 flask==3.1.1              # via flasgger, httpbin (setup.py), raven
@@ -26,7 +26,7 @@ pycparser==2.22           # via cffi
 pyyaml==6.0.2             # via flasgger
 raven==6.10.0             # via httpbin (setup.py)
 referencing==0.36.2       # via jsonschema, jsonschema-specifications
-rpds-py==0.24.0           # via jsonschema, referencing
+rpds-py==0.25.1           # via jsonschema, referencing
 six==1.17.0               # via flasgger, httpbin (setup.py)
 werkzeug==3.1.3           # via flask, httpbin (setup.py)
 zope-event==5.0           # via gevent
