@@ -29,7 +29,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
-      - uses: ZeitOnline/gh-action-baseproject@5de2d5139d13fdd55415d2c73b6ed6513570b8e0 # v0.14.0
+      - uses: ZeitOnline/gh-action-baseproject@33c193b385a736184a1230cffe5ee5d1c9891da5 # v0.14.1
         id: baseproject
         with:
           project_name: ${{env.project}}
