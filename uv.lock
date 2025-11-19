@@ -86,14 +86,14 @@ wheels = [
 
 [[package]]
 name = "click"
-version = "8.3.0"
+version = "8.3.1"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.3.0.tar.gz", hash = "sha256:e7b8232224eba16f4ebe410c25ced9f7875cb5f3263ffc93cc3e8da705e229c4" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.3.1.tar.gz", hash = "sha256:12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.3.0-py3-none-any.whl", hash = "sha256:9b9f285302c6e3064f4330c05f05b81945b2a39544279343e6e7c5f27a9baddc" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.3.1-py3-none-any.whl", hash = "sha256:981153a64e25f12d547d3426c367a4857371575ee7ad18df2a6183ab0545b2a6" },
 ]
 
 [[package]]
@@ -447,68 +447,68 @@ wheels = [
 
 [[package]]
 name = "rpds-py"
-version = "0.28.0"
+version = "0.29.0"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0.tar.gz", hash = "sha256:abd4df20485a0983e2ca334a216249b6186d6e3c1627e106651943dbdb791aea" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0.tar.gz", hash = "sha256:fe55fe686908f50154d1dc599232016e50c243b438c3b7432f24e2895b0e5359" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:e9e184408a0297086f880556b6168fa927d677716f83d3472ea333b42171ee3b" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:edd267266a9b0448f33dc465a97cfc5d467594b600fe28e7fa2f36450e03053a" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:85beb8b3f45e4e32f6802fb6cd6b17f615ef6c6a52f265371fb916fae02814aa" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:d2412be8d00a1b895f8ad827cc2116455196e20ed994bb704bf138fe91a42724" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:cf128350d384b777da0e68796afdcebc2e9f63f0e9f242217754e647f6d32491" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:a2036d09b363aa36695d1cc1a97b36865597f4478470b0697b5ee9403f4fe399" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b8e1e9be4fa6305a16be628959188e4fd5cd6f1b0e724d63c6d8b2a8adf74ea6" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-manylinux_2_31_riscv64.whl", hash = "sha256:0a403460c9dd91a7f23fc3188de6d8977f1d9603a351d5db6cf20aaea95b538d" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:d7366b6553cdc805abcc512b849a519167db8f5e5c3472010cd1228b224265cb" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:5b43c6a3726efd50f18d8120ec0551241c38785b68952d240c45ea553912ac41" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:0cb7203c7bc69d7c1585ebb33a2e6074492d2fc21ad28a7b9d40457ac2a51ab7" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:7a52a5169c664dfb495882adc75c304ae1d50df552fbd68e100fdc719dee4ff9" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-win32.whl", hash = "sha256:2e42456917b6687215b3e606ab46aa6bca040c77af7df9a08a6dcfe8a4d10ca5" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-win_amd64.whl", hash = "sha256:e0a0311caedc8069d68fc2bf4c9019b58a2d5ce3cd7cb656c845f1615b577e1e" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313-win_arm64.whl", hash = "sha256:04c1b207ab8b581108801528d59ad80aa83bb170b35b0ddffb29c20e411acdc1" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-macosx_10_12_x86_64.whl", hash = "sha256:f296ea3054e11fc58ad42e850e8b75c62d9a93a9f981ad04b2e5ae7d2186ff9c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:5a7306c19b19005ad98468fcefeb7100b19c79fc23a5f24a12e06d91181193fa" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e5d9b86aa501fed9862a443c5c3116f6ead8bc9296185f369277c42542bd646b" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:e5bbc701eff140ba0e872691d573b3d5d30059ea26e5785acba9132d10c8c31d" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:9a5690671cd672a45aa8616d7374fdf334a1b9c04a0cac3c854b1136e92374fe" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9f1d92ecea4fa12f978a367c32a5375a1982834649cdb96539dcdc12e609ab1a" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8d252db6b1a78d0a3928b6190156042d54c93660ce4d98290d7b16b5296fb7cc" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-manylinux_2_31_riscv64.whl", hash = "sha256:d61b355c3275acb825f8777d6c4505f42b5007e357af500939d4a35b19177259" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:acbe5e8b1026c0c580d0321c8aae4b0a1e1676861d48d6e8c6586625055b606a" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:8aa23b6f0fc59b85b4c7d89ba2965af274346f738e8d9fc2455763602e62fd5f" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-musllinux_1_2_i686.whl", hash = "sha256:7b14b0c680286958817c22d76fcbca4800ddacef6f678f3a7c79a1fe7067fe37" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:bcf1d210dfee61a6c86551d67ee1031899c0fdbae88b2d44a569995d43797712" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-win32.whl", hash = "sha256:3aa4dc0fdab4a7029ac63959a3ccf4ed605fee048ba67ce89ca3168da34a1342" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp313-cp313t-win_amd64.whl", hash = "sha256:7b7d9d83c942855e4fdcfa75d4f96f6b9e272d42fffcb72cd4bb2577db2e2907" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-macosx_10_12_x86_64.whl", hash = "sha256:dcdcb890b3ada98a03f9f2bb108489cdc7580176cb73b4f2d789e9a1dac1d472" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:f274f56a926ba2dc02976ca5b11c32855cbd5925534e57cfe1fda64e04d1add2" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4fe0438ac4a29a520ea94c8c7f1754cdd8feb1bc490dfda1bfd990072363d527" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:8a358a32dd3ae50e933347889b6af9a1bdf207ba5d1a3f34e1a38cd3540e6733" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e80848a71c78aa328fefaba9c244d588a342c8e03bda518447b624ea64d1ff56" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:f586db2e209d54fe177e58e0bc4946bea5fb0102f150b1b2f13de03e1f0976f8" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5ae8ee156d6b586e4292491e885d41483136ab994e719a13458055bec14cf370" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-manylinux_2_31_riscv64.whl", hash = "sha256:a805e9b3973f7e27f7cab63a6b4f61d90f2e5557cff73b6e97cd5b8540276d3d" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:5d3fd16b6dc89c73a4da0b4ac8b12a7ecc75b2864b95c9e5afed8003cb50a728" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:6796079e5d24fdaba6d49bda28e2c47347e89834678f2bc2c1b4fc1489c0fb01" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-musllinux_1_2_i686.whl", hash = "sha256:76500820c2af232435cbe215e3324c75b950a027134e044423f59f5b9a1ba515" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:bbdc5640900a7dbf9dd707fe6388972f5bbd883633eb68b76591044cfe346f7e" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-win32.whl", hash = "sha256:adc8aa88486857d2b35d75f0640b949759f79dc105f50aa2c27816b2e0dd749f" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-win_amd64.whl", hash = "sha256:66e6fa8e075b58946e76a78e69e1a124a21d9a48a5b4766d15ba5b06869d1fa1" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314-win_arm64.whl", hash = "sha256:a6fe887c2c5c59413353b7c0caff25d0e566623501ccfff88957fa438a69377d" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-macosx_10_12_x86_64.whl", hash = "sha256:7a69df082db13c7070f7b8b1f155fa9e687f1d6aefb7b0e3f7231653b79a067b" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:b1cde22f2c30ebb049a9e74c5374994157b9b70a16147d332f89c99c5960737a" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5338742f6ba7a51012ea470bd4dc600a8c713c0c72adaa0977a1b1f4327d6592" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:e1460ebde1bcf6d496d80b191d854adedcc619f84ff17dc1c6d550f58c9efbba" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e3eb248f2feba84c692579257a043a7699e28a77d86c77b032c1d9fbb3f0219c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:bd3bbba5def70b16cd1c1d7255666aad3b290fbf8d0fe7f9f91abafb73611a91" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3114f4db69ac5a1f32e7e4d1cbbe7c8f9cf8217f78e6e002cedf2d54c2a548ed" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-manylinux_2_31_riscv64.whl", hash = "sha256:4b0cb8a906b1a0196b863d460c0222fb8ad0f34041568da5620f9799b83ccf0b" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:cf681ac76a60b667106141e11a92a3330890257e6f559ca995fbb5265160b56e" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:1e8ee6413cfc677ce8898d9cde18cc3a60fc2ba756b0dec5b71eb6eb21c49fa1" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-musllinux_1_2_i686.whl", hash = "sha256:b3072b16904d0b5572a15eb9d31c1954e0d3227a585fc1351aa9878729099d6c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:b670c30fd87a6aec281c3c9896d3bae4b205fd75d79d06dc87c2503717e46092" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-win32.whl", hash = "sha256:8014045a15b4d2b3476f0a287fcc93d4f823472d7d1308d47884ecac9e612be3" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.28.0-cp314-cp314t-win_amd64.whl", hash = "sha256:7a4e59c90d9c27c561eb3160323634a9ff50b04e4f7820600a2beb0ac90db578" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:1585648d0760b88292eecab5181f5651111a69d90eff35d6b78aa32998886a61" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:521807963971a23996ddaf764c682b3e46459b3c58ccd79fefbe16718db43154" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0a8896986efaa243ab713c69e6491a4138410f0fe36f2f4c71e18bd5501e8014" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:1d24564a700ef41480a984c5ebed62b74e6ce5860429b98b1fede76049e953e6" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e6596b93c010d386ae46c9fba9bfc9fc5965fa8228edeac51576299182c2e31c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:5cc58aac218826d054c7da7f95821eba94125d88be673ff44267bb89d12a5866" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:de73e40ebc04dd5d9556f50180395322193a78ec247e637e741c1b954810f295" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-manylinux_2_31_riscv64.whl", hash = "sha256:295ce5ac7f0cf69a651ea75c8f76d02a31f98e5698e82a50a5f4d4982fbbae3b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:1ea59b23ea931d494459c8338056fe7d93458c0bf3ecc061cd03916505369d55" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:f49d41559cebd608042fdcf54ba597a4a7555b49ad5c1c0c03e0af82692661cd" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:05a2bd42768ea988294ca328206efbcc66e220d2d9b7836ee5712c07ad6340ea" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:33ca7bdfedd83339ca55da3a5e1527ee5870d4b8369456b5777b197756f3ca22" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-win32.whl", hash = "sha256:20c51ae86a0bb9accc9ad4e6cdeec58d5ebb7f1b09dd4466331fc65e1766aae7" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-win_amd64.whl", hash = "sha256:6410e66f02803600edb0b1889541f4b5cc298a5ccda0ad789cc50ef23b54813e" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313-win_arm64.whl", hash = "sha256:56838e1cd9174dc23c5691ee29f1d1be9eab357f27efef6bded1328b23e1ced2" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-macosx_10_12_x86_64.whl", hash = "sha256:37d94eadf764d16b9a04307f2ab1d7af6dc28774bbe0535c9323101e14877b4c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:d472cf73efe5726a067dce63eebe8215b14beabea7c12606fd9994267b3cfe2b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:72fdfd5ff8992e4636621826371e3ac5f3e3b8323e9d0e48378e9c13c3dac9d0" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:2549d833abdf8275c901313b9e8ff8fba57e50f6a495035a2a4e30621a2f7cc4" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:4448dad428f28a6a767c3e3b80cde3446a22a0efbddaa2360f4bb4dc836d0688" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:115f48170fd4296a33938d8c11f697f5f26e0472e43d28f35624764173a60e4d" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8e5bb73ffc029820f4348e9b66b3027493ae00bca6629129cd433fd7a76308ee" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-manylinux_2_31_riscv64.whl", hash = "sha256:b1581fcde18fcdf42ea2403a16a6b646f8eb1e58d7f90a0ce693da441f76942e" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:16e9da2bda9eb17ea318b4c335ec9ac1818e88922cbe03a5743ea0da9ecf74fb" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:28fd300326dd21198f311534bdb6d7e989dd09b3418b3a91d54a0f384c700967" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-musllinux_1_2_i686.whl", hash = "sha256:2aba991e041d031c7939e1358f583ae405a7bf04804ca806b97a5c0e0af1ea5e" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:7f437026dbbc3f08c99cc41a5b2570c6e1a1ddbe48ab19a9b814254128d4ea7a" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-win32.whl", hash = "sha256:6e97846e9800a5d0fe7be4d008f0c93d0feeb2700da7b1f7528dabafb31dfadb" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp313-cp313t-win_amd64.whl", hash = "sha256:f49196aec7c4b406495f60e6f947ad71f317a765f956d74bbd83996b9edc0352" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-macosx_10_12_x86_64.whl", hash = "sha256:394d27e4453d3b4d82bb85665dc1fcf4b0badc30fc84282defed71643b50e1a1" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:55d827b2ae95425d3be9bc9a5838b6c29d664924f98146557f7715e331d06df8" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:fc31a07ed352e5462d3ee1b22e89285f4ce97d5266f6d1169da1142e78045626" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:c4695dd224212f6105db7ea62197144230b808d6b2bba52238906a2762f1d1e7" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:fcae1770b401167f8b9e1e3f566562e6966ffa9ce63639916248a9e25fa8a244" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:90f30d15f45048448b8da21c41703b31c61119c06c216a1bf8c245812a0f0c17" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:44a91e0ab77bdc0004b43261a4b8cd6d6b451e8d443754cfda830002b5745b32" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-manylinux_2_31_riscv64.whl", hash = "sha256:4aa195e5804d32c682e453b34474f411ca108e4291c6a0f824ebdc30a91c973c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:7971bdb7bf4ee0f7e6f67fa4c7fbc6019d9850cc977d126904392d363f6f8318" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:8ae33ad9ce580c7a47452c3b3f7d8a9095ef6208e0a0c7e4e2384f9fc5bf8212" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-musllinux_1_2_i686.whl", hash = "sha256:c661132ab2fb4eeede2ef69670fd60da5235209874d001a98f1542f31f2a8a94" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:bb78b3a0d31ac1bde132c67015a809948db751cb4e92cdb3f0b242e430b6ed0d" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-win32.whl", hash = "sha256:f475f103488312e9bd4000bc890a95955a07b2d0b6e8884aef4be56132adbbf1" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-win_amd64.whl", hash = "sha256:b9cf2359a4fca87cfb6801fae83a76aedf66ee1254a7a151f1341632acf67f1b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314-win_arm64.whl", hash = "sha256:9ba8028597e824854f0f1733d8b964e914ae3003b22a10c2c664cb6927e0feb9" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-macosx_10_12_x86_64.whl", hash = "sha256:e71136fd0612556b35c575dc2726ae04a1669e6a6c378f2240312cf5d1a2ab10" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:76fe96632d53f3bf0ea31ede2f53bbe3540cc2736d4aec3b3801b0458499ef3a" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9459a33f077130dbb2c7c3cea72ee9932271fb3126404ba2a2661e4fe9eb7b79" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:5c9546cfdd5d45e562cc0444b6dddc191e625c62e866bf567a2c69487c7ad28a" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:12597d11d97b8f7e376c88929a6e17acb980e234547c92992f9f7c058f1a7310" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:28de03cf48b8a9e6ec10318f2197b83946ed91e2891f651a109611be4106ac4b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fd7951c964069039acc9d67a8ff1f0a7f34845ae180ca542b17dc1456b1f1808" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-manylinux_2_31_riscv64.whl", hash = "sha256:c07d107b7316088f1ac0177a7661ca0c6670d443f6fe72e836069025e6266761" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:1de2345af363d25696969befc0c1688a6cb5e8b1d32b515ef84fc245c6cddba3" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:00e56b12d2199ca96068057e1ae7f9998ab6e99cda82431afafd32f3ec98cca9" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-musllinux_1_2_i686.whl", hash = "sha256:3919a3bbecee589300ed25000b6944174e07cd20db70552159207b3f4bbb45b8" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:e7fa2ccc312bbd91e43aa5e0869e46bc03278a3dddb8d58833150a18b0f0283a" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-win32.whl", hash = "sha256:97c817863ffc397f1e6a6e9d2d89fe5408c0a9922dac0329672fb0f35c867ea5" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/rpds-py/rpds_py-0.29.0-cp314-cp314t-win_amd64.whl", hash = "sha256:2023473f444752f0f82a58dfcbee040d0a1b3d1b3c2ec40e884bd25db6d117d2" },
 ]
 
 [[package]]
@@ -543,18 +543,20 @@ wheels = [
 
 [[package]]
 name = "zope-interface"
-version = "8.1"
+version = "8.1.1"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.tar.gz", hash = "sha256:a02ee40770c6a2f3d168a8f71f09b62aec3e4fb366da83f8e849dbaa5b38d12f" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1.tar.gz", hash = "sha256:51b10e6e8e238d719636a401f44f1e366146912407b58453936b781a19be19ec" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp313-cp313-macosx_10_9_x86_64.whl", hash = "sha256:afc2bbd1c5d9ecda8c2114a2793bda811ea175742c93dc77a02d5ed49c7a732e" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:827a9ad0ebfef467f047d17d83868f66eb44feb00daf2e3dbd404b6f1cb08858" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp313-cp313-manylinux1_i686.manylinux2014_i686.manylinux_2_17_i686.manylinux_2_5_i686.whl", hash = "sha256:3913ad3fced813c4af551aae4511dc000c6d4df648430060593aec851bb5fc19" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:c073ba91caeff93aaf9569c9c3ec3fd790290329cefa69eb6dcb43eabb832c2c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp313-cp313-win_amd64.whl", hash = "sha256:eef72e1726fa055510c1442c3bc3614a4fd0cd056e26c824c26a27d02ad9cfdd" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp314-cp314-macosx_10_9_x86_64.whl", hash = "sha256:04ee726e6939be1c2924d8513a17eb819217129e25d3217ca009cf9c8832e3fe" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:b931e7241d089df18e0e34a7bfba019bc89c5bf49af8894b4540a0857cb70b79" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp314-cp314-manylinux1_i686.manylinux2014_i686.manylinux_2_17_i686.manylinux_2_5_i686.whl", hash = "sha256:c09a4a25007f113c82fcdf4b40ffcbcfaa3f26e428d9cbb9ea322fe27149bc39" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp314-cp314-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:26c515e2f92da839d531ef86a3bbaafc3f22bd9aea5eb0c1dc397f67abff56d7" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1-cp314-cp314-win_amd64.whl", hash = "sha256:76dfe5580cac661b0aad5f0d308c09d25b567c908a1695bd68986507fd61b61d" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp313-cp313-macosx_10_9_x86_64.whl", hash = "sha256:84f9be6d959640de9da5d14ac1f6a89148b16da766e88db37ed17e936160b0b1" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:531fba91dcb97538f70cf4642a19d6574269460274e3f6004bba6fe684449c51" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp313-cp313-manylinux1_i686.manylinux2014_i686.manylinux_2_17_i686.manylinux_2_5_i686.whl", hash = "sha256:fc65f5633d5a9583ee8d88d1f5de6b46cd42c62e47757cfe86be36fb7c8c4c9b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:efef80ddec4d7d99618ef71bc93b88859248075ca2e1ae1c78636654d3d55533" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:49aad83525eca3b4747ef51117d302e891f0042b06f32aa1c7023c62642f962b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp313-cp313-win_amd64.whl", hash = "sha256:71cf329a21f98cb2bd9077340a589e316ac8a415cac900575a32544b3dffcb98" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp314-cp314-macosx_10_9_x86_64.whl", hash = "sha256:da311e9d253991ca327601f47c4644d72359bac6950fbb22f971b24cd7850f8c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:3fb25fca0442c7fb93c4ee40b42e3e033fef2f648730c4b7ae6d43222a3e8946" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp314-cp314-manylinux1_i686.manylinux2014_i686.manylinux_2_17_i686.manylinux_2_5_i686.whl", hash = "sha256:bac588d0742b4e35efb7c7df1dacc0397b51ed37a17d4169a38019a1cebacf0a" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp314-cp314-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:3d1f053d2d5e2b393e619bce1e55954885c2e63969159aa521839e719442db49" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:64a1ad7f4cb17d948c6bdc525a1d60c0e567b2526feb4fa38b38f249961306b8" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/zope-interface/zope_interface-8.1.1-cp314-cp314-win_amd64.whl", hash = "sha256:169214da1b82b7695d1a36f92d70b11166d66b6b09d03df35d150cc62ac52276" },
 ]
