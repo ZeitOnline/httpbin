@@ -23,7 +23,7 @@ COPY httpbin httpbin
 RUN --mount=type=secret,id=GCLOUD_TOKEN,env=UV_INDEX_PYPI_ZON_PASSWORD \
     uv sync --group deploy
 
-ENTRYPOINT ["python", "-m", "gunicorn", "-b", "0.0.0.0:8080", "httpbin:app", "-k", "gevent"]
+ENTRYPOINT ["python", "-m", "gunicorn", "-b", "0.0.0.0:8080", "httpbin:app", "-k", "gevent", "--no-control-socket"]
 
 # Security updates run last, to intentionally bust the docker cache.
 USER root
