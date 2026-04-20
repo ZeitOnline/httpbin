@@ -12,7 +12,7 @@ spec:
     - matches:
         - headers:
             - name: x-zon-service
-              value: httpbin/app
+              value: httpbin/api
       backendRefs:
         - name: app
           port: 8080
