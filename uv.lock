@@ -86,14 +86,14 @@ wheels = [
 
 [[package]]
 name = "click"
-version = "8.3.3"
+version = "8.4.0"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.3.3.tar.gz", hash = "sha256:398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.4.0.tar.gz", hash = "sha256:638f1338fe1235c8f4e008e4a8a254fb5c5fbdcbb40ece3c9142ebb78e792973" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.3.3-py3-none-any.whl", hash = "sha256:a2bf429bb3033c89fa4936ffb35d5cb471e3719e1f3c8a7c3fff0b8314305613" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/click/click-8.4.0-py3-none-any.whl", hash = "sha256:40c50b7c6c6adac2823d411041ec84f3f103f1b280d5e9ce0d7f998995832f81" },
 ]
 
 [[package]]
@@ -107,11 +107,11 @@ wheels = [
 
 [[package]]
 name = "decorator"
-version = "5.2.1"
+version = "5.3.1"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/decorator/decorator-5.2.1.tar.gz", hash = "sha256:65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/decorator/decorator-5.3.1.tar.gz", hash = "sha256:4cbcdd55a6efadb9dbea26b858f4fb3264567b52d69ca0d25b721b553f60ea82" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/decorator/decorator-5.2.1-py3-none-any.whl", hash = "sha256:d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/decorator/decorator-5.3.1-py3-none-any.whl", hash = "sha256:f47fe6fdbd2edd623ecfe36875d37aba411624e2670dd395dddae1358689bb3c" },
 ]
 
 [[package]]
