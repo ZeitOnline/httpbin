@@ -38,7 +38,7 @@ jobs:
           google_auth: true
       - run: bin/test
 
-      - uses: ZeitOnline/sysdig-scan-action@8e507758e02857ef6fa3ff1c1bb6871700d85de1 # v1.2.1
+      - uses: ZeitOnline/sysdig-scan-action@67b45f2f91a3205a0876a45f89e3cd9d36c55c41 # v1.3
         with:
           gha_vault_role: ${{steps.baseproject.outputs.gha_vault_role}}
           image_tag: ${{secrets.GAR_DOCKER_REGISTRY}}/${{env.project}}:testing
