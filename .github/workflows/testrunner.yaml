@@ -9,12 +9,12 @@ env:
 
 jobs:
   linter:
-    uses: zeitonline/gh-action-workflows/.github/workflows/pre-commit.yaml@c59f973a7711502a6405ada24cbf2c2ee7db8dfb # 4.0.0
+    uses: zeitonline/gh-action-workflows/.github/workflows/pre-commit.yaml@89c86adf124007d97fae113c3e0c176e9c8391c6 # 4.1.0
     with:
       python-version: "3.13"
       node-version: "24"
   k8s:
-    uses: zeitonline/gh-action-workflows/.github/workflows/k8s-validation.yaml@c59f973a7711502a6405ada24cbf2c2ee7db8dfb # 4.0.0
+    uses: zeitonline/gh-action-workflows/.github/workflows/k8s-validation.yaml@89c86adf124007d97fae113c3e0c176e9c8391c6 # 4.1.0
 
   test:
     needs:
