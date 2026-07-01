@@ -13,7 +13,7 @@
     {
       "groupName": "All minor docker changes",
       "matchManagers": ["dockerfile"],
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": ["minor", "patch", "digest"]
     },
     {
       "groupName": "All minor github-actions changes",
