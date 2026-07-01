@@ -1,41 +1,25 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "dependencyDashboard": true,
-    "commitMessagePrefix": "MAINT: ",
-    "schedule": [
-        "before 8am on wednesday"
-    ],
-    "enabledManagers": [
-        "dockerfile",
-        "github-actions",
-        "pep621"
-    ],
-    "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": ["before 8am on wednesday"],
-        "commitMessageAction": "Update dependencies"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": true,
+  "commitMessagePrefix": "MAINT: ",
+  "schedule": ["before 8am on wednesday"],
+  "enabledManagers": ["dockerfile", "github-actions", "pep621"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 8am on wednesday"],
+    "commitMessageAction": "Update dependencies"
+  },
+  "packageRules": [
+    {
+      "groupName": "All minor docker changes",
+      "matchManagers": ["dockerfile"],
+      "matchUpdateTypes": ["minor", "patch"]
     },
-    "packageRules": [
-        {
-            "groupName": "All minor docker changes",
-            "matchManagers": [
-                "dockerfile"
-            ],
-            "matchUpdateTypes": [
-                "minor",
-                "patch"
-            ]
-        },
-        {
-            "groupName": "All minor github-actions changes",
-            "matchManagers": [
-                "github-actions"
-            ],
-            "matchUpdateTypes": [
-                "minor",
-                "patch"
-            ],
-            "automerge": true
-        }
-    ]
+    {
+      "groupName": "All minor github-actions changes",
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }
