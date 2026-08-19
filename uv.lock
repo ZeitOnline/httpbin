@@ -175,7 +175,7 @@ wheels = [
 
 [[package]]
 name = "gevent"
-version = "26.7.0"
+version = "26.8.0"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
 dependencies = [
     { name = "cffi", marker = "platform_python_implementation == 'CPython' and sys_platform == 'win32'" },
@@ -183,102 +183,101 @@ dependencies = [
     { name = "zope-event" },
     { name = "zope-interface" },
 ]
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0.tar.gz", hash = "sha256:5b333a556e38a302b1b8c80525bef16d437e16f1e7767947789406841856a102" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0.tar.gz", hash = "sha256:96039f41bbde6dcd72559e5ffbd408a04f46774b47d991d4cf032da8fa79e5a0" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-macosx_11_0_universal2.whl", hash = "sha256:b1b89eb5566f75aa8b2bbdb0308e1ac8d9113ca7cff85b45366aea9faad639a1" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:449857ce058183442e2d71d83ff0c587a3ddff631e93c6d19a6dffb4814eccad" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-manylinux_2_28_ppc64le.whl", hash = "sha256:8260a3f38b05fcf3c283417b18617562dbec74f5784f748e4ba3866789d7f3a4" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-manylinux_2_28_s390x.whl", hash = "sha256:30894398d06747b433c8923a6a77ede61259ce6822a99f6c6e7fa0216ccb73c3" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:0b753522498118c9489753de7c612d4baed0edf384d9df2bf9492233ba1c20ff" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:055a643026dc28daff2be228555a2097937448cc9b58307edebcf81b9d78ff4b" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:4e1dc6a2712de67fd210e1f1a408601f6908b042f6420e188106f2f37f94ec71" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-win_amd64.whl", hash = "sha256:44e5280296129c0915addaefdb37d6e9bc124a77a433b1b1c8ddf1853c53f4e7" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp313-cp313-win_arm64.whl", hash = "sha256:9f08b1aa6729f794409ca137e25f671e0d9bbda4451200c5e28a769375365388" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-macosx_11_0_universal2.whl", hash = "sha256:0e0e3bf7ae0f82dbc5c6be26b4781e86c97f1e28d516b7a9746ac8b04bcc6948" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:740050b53048207b080a1e183a377c47809ad0b7b7b0cd7eab0dea1045f7e480" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-manylinux_2_28_ppc64le.whl", hash = "sha256:67983607eb6c7bafa362c5c43b69a27145b936c34a3d6441ed42413d62fae0a6" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-manylinux_2_28_s390x.whl", hash = "sha256:475848518d708e07d1987c3d94cb8ff53e2b3a69df32e39feda2779cafe400b0" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:0f8ed457dd616bfe6682569f92730f9ab45aafb1aeca5e80eb2f6b9a2ce26d11" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:15373c68cf1fa14114bec2f09b16e2c65374bd5309e897e0a28740b09ce329e0" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:73f3d53f2f390369e290c933b75bd87f1f2261f2f2f2175aa667c43ee3049bad" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-win_amd64.whl", hash = "sha256:f11b558d544ad2249029ba023cd6519ec3a0eee54a3d027e6515c1eaa322422a" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp314-cp314-win_arm64.whl", hash = "sha256:3871f4ca59ec2328c3ef638a0fe01a28a825443a133368dc78eb5ceadcad7609" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp315-cp315-macosx_11_0_universal2.whl", hash = "sha256:3e3d6e20a94239ad353b776e72b8ce18c35dbe4e98c279aef3932651553d8404" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp315-cp315-manylinux_2_28_aarch64.whl", hash = "sha256:ddbd3cc76b9bc69df651a216c2a62fc6415ad463b3ac9c6cbbbb8b7b8224af17" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp315-cp315-manylinux_2_28_ppc64le.whl", hash = "sha256:01ceab7e608dc1b9859d9511a0a29d7ce2e7d909ab19fddc860e70a2ed5b10ce" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp315-cp315-manylinux_2_28_s390x.whl", hash = "sha256:2e6c917b2b8baeb6080797a6b25e35e1fd784319a05bb92b87c53546e5578eb2" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp315-cp315-manylinux_2_28_x86_64.whl", hash = "sha256:df75a1748b26030f2f7f10042cc45640b22954d9d0dc6b4b6f0dbe0b6751a2d4" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:ee1b389587e5d5c1eb19d0455b5b4d7a0fb5c5287af4e226ec66d9dfd2548107" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.7.0-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:c2918641ba756f46aa01ab9dd82d6dfceec403c77c2787298746b411dcf0288e" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-macosx_11_0_universal2.whl", hash = "sha256:8dde9ed35e3b8bc2c25dfa11c2c770ac526642bda6dc3b25ee7990224de58c90" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:7562e4ec86cbb89e457eac78aaceb0266459c24b033b6946322463f121d801e8" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-manylinux_2_28_ppc64le.whl", hash = "sha256:e8bc413b9bcf7cd851b34b0f58608171f7e4ac76246175eebc15be1a3119f705" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-manylinux_2_28_s390x.whl", hash = "sha256:4b89f12461c5aa0c7d98bebf9403db0bb6a7ff2f599420145a64c20f49fe1038" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:7644970428fcc32011ac562b5e6b646a505296a109165e2bc16f8b825ab4a809" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:e403966ca6a3f556579f0a54eabd06ad6cc5b98d66488bc9d97a34989ad8c480" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:1494690813f476eca534ec8eca0a470013910279e6c019ccdad2ed543db391dd" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-win_amd64.whl", hash = "sha256:9fd575d0091074028512437e08b77d05e265619b18becb22f87a827274262a12" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp313-cp313-win_arm64.whl", hash = "sha256:097c9ed26102f62dc1e7d974274752ce462b98ad01ac55d7b1044fcba3429a86" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-macosx_11_0_universal2.whl", hash = "sha256:e0f6a96cd5f9ad8f1f91d5d56d3e5534e15682b4a0abecd8396a18b836296426" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:113d12a2d4276047980e491cc5856388954642eb555479c6962f52fb181eb1df" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-manylinux_2_28_ppc64le.whl", hash = "sha256:3ea7d0ff714ac9c634bfaaa3cfb25a5fcf7a272df47cad2261642323b16a3266" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-manylinux_2_28_s390x.whl", hash = "sha256:1bee3c0cb1aa2cee3369de46f8d952d10310166d7b4a744ae64a32ee1e14a1f5" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:64bc5c3302b02f9ad012243173e13705711dbbcc7590443d974f2961154d7077" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:e544cba5810ec64056d78f0d3c79ceeafc91ac612b4e9008134645bc437dd885" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:3445b3a8a51fcb7b881485b1089f7d64ca057aa921a78f146d702853650f958d" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-win_amd64.whl", hash = "sha256:4fe56814f6d36d8fdfe0254909388fa58ccb61e7945d2f031a2dbd81f90ced4c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp314-cp314-win_arm64.whl", hash = "sha256:5914bab0ebe7fbd6077d703b61b2e74afec0436487f29b8154302c61f4d58502" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-macosx_11_0_universal2.whl", hash = "sha256:9afd9fbccbcea0b803d554b9e7bac75382e919aa07a5cb98d04edeba10c6cf77" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-manylinux_2_28_aarch64.whl", hash = "sha256:cd225e954d57e7d8a994a8d152f0d76609c73fa701a3e27293cc46675b2dce77" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-manylinux_2_28_ppc64le.whl", hash = "sha256:8cb1402c0c7bdbd6d772fd5eb700b98b31ce0d8f613f68823f32cce5ec956d8c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-manylinux_2_28_s390x.whl", hash = "sha256:242d5e3622a39236f57a4e740c5480e86b6bc15c3a790e997b8cc99bee34ef27" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-manylinux_2_28_x86_64.whl", hash = "sha256:b13173a992de43e92d15c6ac318f8ae019cf08eec15a78f99a0d4a917837052a" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:f431af3f2737ae01cf1c5a303f193cc2a8f726521e997ea8baf2d8567c6fe07c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:1d8b76e525d7e301db83d8124a27700c55ad23754f3efbbf15c7051d6fa19853" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-win_amd64.whl", hash = "sha256:b16931069d0044a23a566d16dc5787122e858fa9d591c81500b6e6ad2148cfec" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gevent/gevent-26.8.0-cp315-cp315-win_arm64.whl", hash = "sha256:42b8ed34f7aff517fac448ab57084e5e39d6a84a2b6c2b709223d5751c85e657" },
 ]
 
 [[package]]
 name = "greenlet"
-version = "3.5.4"
+version = "3.5.5"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4.tar.gz", hash = "sha256:0232ae1de90a8e07867bb127d7a6ba2301e859145489f25cda8a6096dabe1d20" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5.tar.gz", hash = "sha256:adb4bae02e91a8e863e48b177e4014bdcac8a6b5e047ea1df687a61534b85e6c" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-macosx_11_0_universal2.whl", hash = "sha256:24e61b88cb7e1b1d794b32a10cc346ac779681d6d74ff137a3e0a444d2bf1f02" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:870d730fec833f5a06906a32596cc099b9161594642a92a520b7a88911c95356" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:ec5ff0d1878df6af3bf9b638a5a92a7d5693291de77c91bff10fa48519c604ef" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:07bd44616608d873d06735b63ef1a88191d6ca57c8d291d6559c71bc14c0893c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d84d993f6e575c950d91a23c1345d18fe1a4310d447bf630849d7809196b52f0" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-manylinux_2_39_riscv64.whl", hash = "sha256:3529a8a933582ad19e224792cac7372489526576b75b4c124e8e4f29948f4861" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:58023945f421093de5e6fa108c0985a8659d43f49e0216da25099369a121bcbd" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:bae2728e1897aa8df8cb1af38cd48b3a743aefe29372de7b8b7a9f532501e69f" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-win_amd64.whl", hash = "sha256:ca5726c0b08ca35ae873557266a78b2c3f3b2b7d7401aa5ff886c2045dd0111c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp313-cp313-win_arm64.whl", hash = "sha256:7c1303791d603080cac6fc3b34df51c3b75b723739c282c8029e48a0d241672f" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-macosx_11_0_universal2.whl", hash = "sha256:7e8afa5eac028f8140ceafe5ceec66e6aa127ddcb21452d2a564dcd2900b5f22" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:73b37afe369021423ea53dd3123e04bffa7e93ac64429b9f50835b2e4fcae7cf" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:3ef964f56dfcb6f9bbef2a190d9126795eac408716aeae47b5e7c73c32aafca9" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:cef589bc65fae02d10bca2ac341191c5b33acc2967892ebf4fcbd10eabb7a74c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:9c53ff01a5c53a40f2c16820ebc56d7c61a77f5fbe009dadd96292d5682f80f8" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-manylinux_2_39_riscv64.whl", hash = "sha256:dfc41ae893d9ceaf22c824f2153a88b30651b20e8758c2cd9ac143f23640563c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:ecca4d80d55a01ad6b23b33262662956149fbb7b2c6be2910f1705921958cbf3" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:2ffbc533e0eaf8e80d8471411646ab88fe58f641d508c0b02b24494479f4d9ec" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-win_amd64.whl", hash = "sha256:305f69e6c4523d7f6979ed001cff4e5853c063e5da04880296603aa0227e544c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314-win_arm64.whl", hash = "sha256:f260930bbbbcf9caee661211235a5111c86dfe5832fdf6ae4570da1e0995320f" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-macosx_11_0_universal2.whl", hash = "sha256:41ddab54e4b238f4a6c323f39b4e59e176affd5a94d461a9fb7583dac74240a3" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b3dabe3e2809013052c68bdf0b7fa5f5f2859c43a80803131ad61af9cabd7867" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:27d3f00718634d4520a3a150154ac5da36f257869d41321953375b90bfbbc72c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:39169a11d87a6a263afda3e9a27d1df16d0f919d40a4837cc73986c9884c0dd8" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:cbd60b5763c6543c1827e48faaf14ea9bfbad245f52b1a4d76a2a2d8884c6c66" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-manylinux_2_39_riscv64.whl", hash = "sha256:bd3d1145f603b2db19feb9078c2e6855eb7c67e15580c010ed815cee519b86fd" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:f00f910f0e7b35416c63b23ad78b769aeccfc1775f712b43c4ee525624a2eef7" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:91c26423753b92caf41ab3f98fd547d7374d4d9fc2d85be041886c1579d9255e" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp314-cp314t-win_amd64.whl", hash = "sha256:ee032b91fd8ec29ec6c4cea2b8c561b178435134bd0752c7334b94e9c736c132" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-macosx_11_0_universal2.whl", hash = "sha256:178111881dd7a6c946471fda85485ec796e1043c2b939f694b096e2ecf986809" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:d92df08dd65fede97fc37aad36c2e9dcda3b31c467f8e0c2c096456cb818e927" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:99e8f8c4ebc4fd80aa26c1280ae9ad43a0976e786349703a181cf0bae60413e5" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:1f17e362d78e37559e0506c5a7d066bdd45073c36a0127a543e8a0df27242ff3" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:394de08dad5ffcb1f50c2159d93e398d9d2da3ed437645eaa54771fa720db9f0" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-manylinux_2_39_riscv64.whl", hash = "sha256:cd320d998cbaa032932830448e39abf3c6a12901295e386e8114db926e10cffb" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:c883d61f2282d72c767a14936641b3efcbde9d82f1080712aaea0b1d3126cb88" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:2a924f15d17957e252a810acefcb5942f5ca712298e8b6fcaed9a307d357522c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-win_amd64.whl", hash = "sha256:ed17e5f3420360d5b459de8462efb52060399a5326a613d4cde31cef63ef95da" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315-win_arm64.whl", hash = "sha256:f908898d6fa484ce4b6f447ce70ea99b52c503fee419e53cf74d60a16bc9e667" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-macosx_11_0_universal2.whl", hash = "sha256:1833637f17d5e7472548a48575c394fe39f1b1890d676d162d86593610f44d8c" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:12cda9122e03341f1cb6b8207a19d7a9d375e52f1b4e9243918375f40fd7b4b9" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:d83ae0e32d14957ab7170785a20f582635c8474deab1bfbb552b17e769a6ce25" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:123aa379c962ed5fe90a880327e0c3066124ac64ec99e12a238be9fd8eb3db3d" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:9f1467de1bb767f75db0aa34c195e3a496d8d1278c796e70c24ce205d3e99cde" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-manylinux_2_39_riscv64.whl", hash = "sha256:adf2244d7f69409925a8f22ed22cc5f93cdfe5c9dc87ff3476be2c2aaae61a05" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:0fa53040b78b578120eecdc0265e3f1051487cc425d11a2b7c761daadf4feaa8" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:60e0bc961d367df506660e9ac0177a76bc6d81305300704b0977d1634f76efe2" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-win_amd64.whl", hash = "sha256:f680e549edb3eaf21eea4e7fe101e15ec180c74b7879ab46adc080f22d4015d2" },
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.4-cp315-cp315t-win_arm64.whl", hash = "sha256:08fc36de8442d5c3e95b044550dbea9bf144d31ec0cc58e36fb241cb6ef6a994" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-macosx_11_0_universal2.whl", hash = "sha256:b79fd2a5bc099b5e744f34c4c9a58954a5f4cb7529fb4b6e8446057d61b6edaa" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:634cf15a233a949136879dd388e25d3296e16f3f1e217d2456797b8579ebc6ed" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:499adea519f748407fc6806d20eedabac2884fd73b9f38d81236e190ba20dfef" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:f7278591501941bb2456af102bb9cd59aab48c6cfd6e2dd68fa1290bb0c49a42" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:2eabb980975cba5b93a95f6f69287d05fc05ac955bfd6a320a7c083eeb52c0b0" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-manylinux_2_39_riscv64.whl", hash = "sha256:4dfc7c4470354e7b09184d1a3a985761053a2fd694ddb5b5c80242afc2c8c90b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:03115c2e0a371999bf8ae616aa8d653f96641d4705c457aebaa187276e9f7537" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:4441153ffba21b90d3ca89fe3d31f5c093ae6c0bf0cfdfc98f54cde22f95b62e" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-win_amd64.whl", hash = "sha256:95c5b1f4b3a193f8a0c2de4bfdcb48d119f7f1063941f1de1f2168051b3e52dd" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp313-cp313-win_arm64.whl", hash = "sha256:1af90aa4bc129883b340cdd6957a3bc74f60528a4993bbd1f53aaebe1d9981cc" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-macosx_11_0_universal2.whl", hash = "sha256:d4a389a852e392a6366058651a20fa5ba40d979865aa81bea2ccbdc44805070d" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:70b157cd319873e8b544ddc2de158f55bbd0a9b0218c8ce9332039801518e328" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:8bdfd1424abcf26832961e766570cae79efdb9599d709088c9cb6ef82b194926" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:d98ef6f92e67c6dbf299dbfd8facc1b0d2d9cedf91e325e73b3d0373fe4309d8" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:182de51c6b572a705f2fafaab2e783bcf7d2760940229dfe73086cbae037af3e" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-manylinux_2_39_riscv64.whl", hash = "sha256:159df1942d88e8f784cbb38d6f18bdb365cd11319cfbb3e89623de2b97892d53" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:8fec3f165dfe332e490c3247c0f6c23b0bfc45f06496ad7f00ddb00e3d35e4dc" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:c6ce25fee6cabc8bf22cb8b52e642cbb821be5b9aec8094d07ff03378141b8e9" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-win_amd64.whl", hash = "sha256:7dffc5c859fe6059974df1e37d7923d654a83e2ae18fdd616994270e001115e1" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314-win_arm64.whl", hash = "sha256:5e2afcfc4d4305dd715809b03da5cbe437c8984f61d8917751eb5fe4aefa3e07" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-macosx_11_0_universal2.whl", hash = "sha256:0e5a7de979d764aea1f5b6e95cf92b5b37741b9823702041f34b126e7f690277" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:fef01bd457f11fc158b130ca0027a3c365693280e8e231b65bdaf57999f39f5b" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:5173a72310725a74afc82c164f0e52cb8ad0de62f2bb623f24f6c0cc07d80272" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:5e9ec2e7c98e895fcea0c5cc57b2606cf86ece6d0a56578f3eb225e2af4f0387" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:44f08341873200ba8a60a8bc14ace3d91f1754f7fa7bc66157714a8cd420a476" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-manylinux_2_39_riscv64.whl", hash = "sha256:102817506f6090b5176c746a82603341a549b40e5c3d5b72a4c672228a918c41" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:d246c0db9a2513cd45f019ba178ea4d4d4705bd210ee465e2c15d76a1ab13874" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:72507285b5caa1d17904a3f7c322ca780823a54170a0e04ec3f37bcc60d4db71" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp314-cp314t-win_amd64.whl", hash = "sha256:7805655781fb8f28a55d05fe57ed61f5f10f1892fb587673e3bb5264f28041f0" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-macosx_11_0_universal2.whl", hash = "sha256:c0db80fcd5b8aece93f66c64f78a786bbb6b96c5fe63ef5a5a4581ecf8bab206" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:6b241c32f912ada659808d68e308c568baf577eebf757d15471472de0c18cfad" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:ef6a08349401d8eaf3cb12688ac8557de95788556b8631ef17555a4a173022c0" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:37faa97daccb6d9f4c2141ce3118d023c3c5506864a7d8bdf726f665018c1f76" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:f2e3d061b8e13aec2f0441689b3c71b244a20e5d274a52cb0f7e31bd1d139552" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-manylinux_2_39_riscv64.whl", hash = "sha256:b18007dc2473a7942fd157366b55f01da6fed7ce85318591005b419e0a439474" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:9ab5f5b93655e77fe0d6c2dfd22b5eac751bb1f876d8ec21761b7c1fb9266007" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:f0e5a21bd4452a88cf032fc43c4a5b307ab1380eacb63b5988f9c0317885e773" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-win_amd64.whl", hash = "sha256:469dbb0a78625642f4a626cfd0c6e8bccc0385b5e49189b6308bbe849ec88a8e" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315-win_arm64.whl", hash = "sha256:2d57406c3efd32d7a81e17a674314e8bd00792cdab49ea3228a49aa1bfb2e769" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-macosx_11_0_universal2.whl", hash = "sha256:68184dfcf50ccaa8e864770fe0633a7e27250ea9329f8192ef47ee9ecfd78e1c" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:9ec0dc0e59dc9c61af5c47348365ccbbd7addfafe0a93b00336ff3da2907bdc6" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:e604f58e35833fc46ef20302bcb314dddbfd3fcf33a4f936216d51dd678d63ae" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:2888a3a38bc5ee5bb6c438372197152e815837e4fab7ed7a1f86ef18ffd58ad1" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:40239b5384f96da3963585cc6d7eaa9b56f8ae67e8d92cc82dd9e202fc847de3" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-manylinux_2_39_riscv64.whl", hash = "sha256:1e8d9391fe77f15649589a907cef972dbbd6352ef7ff7dc0492f658c0c26495f" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:a1eaccf5c3a1d3e46dead602c72e6836731e8e245c9de6a27764567b6b62d4c0" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:19e4e026fe20691f333b8eb1a3bc9625eceba8c3f9d62ec5a6f8581afbc6b5a5" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-win_amd64.whl", hash = "sha256:712aee154f648bde84634654bb38bb78c69ac640c37a45c9effed800735049d8" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/greenlet/greenlet-3.5.5-cp315-cp315t-win_arm64.whl", hash = "sha256:7f049911ee81a16a03c33d5450d8d5867d27f596ca5fb201b86f4524e874468b" },
 ]
 
 [[package]]
 name = "gunicorn"
-version = "26.0.0"
+version = "26.1.0"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
-dependencies = [
-    { name = "packaging" },
-]
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-26.0.0.tar.gz", hash = "sha256:ca9346f85e3a4aeeb64d491045c16b9a35647abd37ea15efe53080eb8b090baf" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-26.1.0.tar.gz", hash = "sha256:1413d777bf99d31ebeb08acd354b01f1ecc44db0aa7b811ae7b86c669232e4f7" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-26.0.0-py3-none-any.whl", hash = "sha256:40233d26a5f0d1872916188c276e21641155111c2853f0c2cd55260aec0d24fc" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-26.1.0-py3-none-any.whl", hash = "sha256:9f45bcddec5e9dc7a25a3bdccb0c6832f11fd5d4739b1ee36c8d2fec25f1dc86" },
 ]
 
 [[package]]
