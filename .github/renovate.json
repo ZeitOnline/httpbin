@@ -9,6 +9,7 @@
     "schedule": ["before 8am on wednesday"],
     "commitMessageAction": "Update dependencies"
   },
+  "ignoreDeps": ["ZeitOnline/gh-action-baseproject"],
   "packageRules": [
     {
       "groupName": "All minor docker changes",
