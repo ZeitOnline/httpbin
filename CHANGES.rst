@@ -1,10 +1,15 @@
 httpbin+zon Changelog
 =====================
 
-0.9.2+zon.7 (unreleased)
+0.9.2+zon.8 (2025-10-10)
 ------------------------
 
-- Nothing changed yet
+- Update to Python-3.14
+
+0.9.2+zon.7 (2025-10-07)
+------------------------
+
+- Update digest auth to current werkzeug API (changed in 2.3.0)
 
 0.9.2+zon.6 (2024-03-18)
 ------------------------
