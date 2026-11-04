@@ -1,13 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "dependencyDashboard": true,
-  "commitMessagePrefix": "MAINT: ",
   "schedule": ["before 8am on wednesday"],
   "enabledManagers": ["dockerfile", "github-actions", "pep621"],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["before 8am on wednesday"],
-    "commitMessageAction": "Update dependencies"
+    "schedule": ["before 8am on wednesday"]
   },
   "ignoreDeps": ["ZeitOnline/gh-action-baseproject"],
   "packageRules": [
