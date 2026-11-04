@@ -269,8 +269,8 @@ wheels = [
 ]
 
 [[package]]
-name = "httpbin"
-version = "0.9.2+zon.8"
+name = "httpbin-zeit"
+version = "1.0.8"
 source = { editable = "." }
 dependencies = [
     { name = "brotlipy" },

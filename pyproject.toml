@@ -1,6 +1,6 @@
 [project]
-name = "httpbin"
-version = "0.9.2+zon.8"
+name = "httpbin-zeit"
+version = "1.0.8"
 description="HTTP Request and Response Service"
 urls = {repository="https://github.com/requests/httpbin"}
 authors = [{name="Kenneth Reitz", email="me@kennethreitz.org"}]
@@ -31,6 +31,7 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-root = ""
+module-name = "httpbin"
 
 [[tool.uv.index]]
 name = "pypi-zon"
