@@ -1,4 +1,4 @@
-# httpbin+zon Changelog
+# httpbin-zeit Changelog
 
 ## 0.9.2+zon.8 (2025-10-10)
 

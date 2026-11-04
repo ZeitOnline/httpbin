@@ -52,7 +52,7 @@ from .helpers import (
 from .utils import weighted_choice
 from .structures import CaseInsensitiveDict
 
-version = importlib.metadata.version('httpbin')
+version = importlib.metadata.version('httpbin-zeit')
 
 ENV_COOKIES = (
     "_gauges_unique",
