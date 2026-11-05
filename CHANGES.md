@@ -1,5 +1,13 @@
 # httpbin-zeit Changelog
 
+## [1.0.10](https://github.com/ZeitOnline/httpbin/compare/1.0.9...1.0.10) (2026-11-05)
+
+
+### Bug Fixes
+
+* update to a maintained brotli library ([4457d59](https://github.com/ZeitOnline/httpbin/commit/4457d592d72d874cf253d1190374908ad8dc8587))
+* update to a maintained brotli library ([10e3174](https://github.com/ZeitOnline/httpbin/commit/10e31745cf626d2ca06d18471c7455cdf1a7392d))
+
 ## [1.0.9](https://github.com/ZeitOnline/httpbin/compare/1.0.8...1.0.9) (2026-11-04)
 
 
