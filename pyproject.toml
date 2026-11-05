@@ -1,6 +1,6 @@
 [project]
 name = "httpbin-zeit"
-version = "1.0.8"
+version = "1.0.9"
 description="HTTP Request and Response Service"
 urls = {repository="https://github.com/requests/httpbin"}
 authors = [{name="Kenneth Reitz", email="me@kennethreitz.org"}]

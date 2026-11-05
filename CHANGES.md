@@ -1,5 +1,12 @@
 # httpbin-zeit Changelog
 
+## [1.0.9](https://github.com/ZeitOnline/httpbin/compare/1.0.8...1.0.9) (2026-11-04)
+
+
+### Bug Fixes
+
+* switch to normal semver (and change the package name), to make release-please work ([8d952a7](https://github.com/ZeitOnline/httpbin/commit/8d952a7a15a73344cc54ccf3bb9566a82170fa83))
+
 ## 0.9.2+zon.8 (2025-10-10)
 
 - Update to Python-3.14
