@@ -821,7 +821,10 @@ def response_headers():
     response = Response(render_template("moby.html"))
     response.headers.clear()  # Remove built-in content-type and -length
     for key, value in headers.items(multi=True):
-        response.headers.add(key, value)
+        if key == 'status':
+            response.status_code = int(value)
+        else:
+            response.headers.add(key, value)
     return response
 
 

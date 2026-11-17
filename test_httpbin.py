@@ -140,6 +140,14 @@ class HttpbinTestCase(unittest.TestCase):
             self.assertEqual(response.status_code, 200)
             self.assertEqual(response.headers.get_all('animal'), ['dog', 'cat'])
 
+    def test_response_headers_status(self):
+        supported_verbs = ['get', 'post']
+        for verb in supported_verbs:
+            method = getattr(self.app, verb)
+            response = method('/response-headers?animal=dog&status=400')
+            self.assertEqual(response.status_code, 400)
+            self.assertEqual(response.headers.get_all('animal'), ['dog'])
+
     def test_get(self):
         response = self.app.get('/get', headers={'User-Agent': 'test'})
         self.assertEqual(response.status_code, 200)
