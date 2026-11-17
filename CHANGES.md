@@ -1,5 +1,12 @@
 # httpbin-zeit Changelog
 
+## [1.1.0](https://github.com/ZeitOnline/httpbin/compare/1.0.10...1.1.0) (2026-11-17)
+
+
+### Features
+
+* allow combining response headers with status code ([2d56c97](https://github.com/ZeitOnline/httpbin/commit/2d56c97869a67d11c9e53ee7fa1af022bc19a3b2))
+
 ## [1.0.10](https://github.com/ZeitOnline/httpbin/compare/1.0.9...1.0.10) (2026-11-05)
 
 
