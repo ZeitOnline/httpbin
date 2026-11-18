@@ -248,16 +248,16 @@ wheels = [
 
 [[package]]
 name = "gunicorn"
-version = "27.0.0"
+version = "27.0.1"
 source = { registry = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/simple/" }
-sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-27.0.0.tar.gz", hash = "sha256:88d52e7c60b3af07bc8db431fbb450a94780f2cbe7c420c7cf1891392661c591" }
+sdist = { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-27.0.1.tar.gz", hash = "sha256:b1514965361c8b7e8107a80aa2a92636878df1ccfac6dd204a676426e04d9e3e" }
 wheels = [
-    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-27.0.0-py3-none-any.whl", hash = "sha256:1380f2f520abc3beb9e72cd2e728bd2d08a19b3ff6ac03ebd8da71d1798a4008" },
+    { url = "https://europe-west3-python.pkg.dev/zeitonline-engineering/pypi-zon/gunicorn/gunicorn-27.0.1-py3-none-any.whl", hash = "sha256:378b26b9a38adcf4592f28828233c1716acc55e833ea06bf48719782efaa0d10" },
 ]
 
 [[package]]
 name = "httpbin-zeit"
-version = "1.0.10"
+version = "1.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "brotli" },
